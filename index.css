@@ -3,3 +3,69 @@
     padding : 0rem;
     box-sizing : border-box;
 }
+
+:root{
+    --mainContainer-bck : #040F2D;
+    --primaryColor : #fff;
+    --secondaryColor : #414B70;
+    --boxColor : #091642;
+    --btnColor : #206FF4;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    height : 100vh;
+}
+
+.mainContainer{
+    height: 98vh;
+    background-color : var(--mainContainer-bck);
+    width : 40%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mainContainer .generate h2{
+    color: var(--primaryColor);
+}
+
+.mainContainer .displayArea{
+    width : 95%;
+    margin: 0 auto;
+}
+
+.mainContainer .displayArea h4{
+    color : var(--secondaryColor);
+    margin-bottom: 0.4rem;
+}
+
+.mainContainer .displayArea .box,
+.mainContainer .displayArea .minibox {
+    background-color: var(--boxColor);
+    width: 100%;
+}
+
+.mainContainer .displayArea .box{
+    height: 2.8rem;
+}
+
+.mainContainer .displayArea .minibox{
+    height : 2.4rem;
+}
+
+
+.mainContainer .generateBtn{
+    width: 95%;
+    height: 3rem;
+    background-color: var(--btnColor);
+    color: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.35rem;
+}
