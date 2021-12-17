@@ -17,11 +17,11 @@
             <div class="box"></div>
         </div>
         <div class="displayArea">
-            <h4>Length : 0</h4>
+            <h4>Length : <span id = "password-length">0</span> </h4>
             <div class="minibox input-range">
                 <span>4</span>
-                <input type="range" name="range" id="slider">
-                <span>32</span>
+                <input type="range" name="range" id="slider" min="4" max="64">
+                <span>64</span>
             </div>
         </div>
         <div class="displayArea">
@@ -58,5 +58,6 @@
             Generate Password 
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
