@@ -70,6 +70,28 @@ body{
     align-items: center;
 }
 
+.mainContainer .displayArea .number{
+    display: inline-block;
+    color : white;
+}
+
+.mainContainer .displayArea .input-range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .displayArea .input-range input{
+    width : 75%;
+    height : 2px;
+    margin : 0 0.75rem;
+}
+
+.mainContainer .displayArea .input-range span{
+    color :var(--primaryColor);
+    font-size : 0.85rem;
+}
+
 .mainContainer .displayArea .minibox p{
     color : var(--primaryColor);
     font-size: 0.8rem;
