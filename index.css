@@ -27,7 +27,7 @@ body{
 }
 
 .mainContainer{
-    height: 92vh;
+    height: 95vh;
     background-color : var(--mainContainer-bck);
     width : 40%;
     display : flex;
@@ -56,7 +56,7 @@ body{
 }
 
 .mainContainer .displayArea .box{
-    height: 3rem;
+    height : 3rem;
 }
 
 .mainContainer .displayArea .minibox{
