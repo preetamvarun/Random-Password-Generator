@@ -16,7 +16,8 @@
         </div>
         <div class="displayArea">
             <h4 style="font-size: 0.6rem;">GENERATED PASSWORD</h4>
-            <div class="box"></div>
+            <div class="box" id = 'displayOutput' style="display: flex; justify-content: center;
+            align-items: center; color: #fff;"></div>
         </div>
         <div class="displayArea">
             <h4>Length : <span id = "password-length">4</span> </h4>
@@ -33,7 +34,7 @@
                 <div class="strength">
                     <label class="toggle">
                         <input class="toggle__input" type="checkbox">
-                        <div class="toggle__fill"></div>
+                        <div class="toggle__fill" id = 'includeNumbers'></div>
                     </label>
                 </div>
             </div>
@@ -42,7 +43,7 @@
                 <div class="strength">
                     <label class="toggle">
                         <input class="toggle__input" type="checkbox">
-                        <div class="toggle__fill"></div>
+                        <div class="toggle__fill" id = 'includeLetters'></div>
                     </label>
                 </div>
             </div>
@@ -51,12 +52,12 @@
                 <div class="strength">
                     <label class="toggle">
                         <input class="toggle__input" type="checkbox">
-                        <div class="toggle__fill"></div>
+                        <div class="toggle__fill" id = 'includeSymbols'></div>
                     </label>
                 </div>
             </div>
         </div>
-        <div class="generateBtn">
+        <div class="generateBtn" id = 'generatePassword'>
             Generate Password 
         </div>
     </div>
