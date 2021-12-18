@@ -120,10 +120,6 @@ body{
     margin-right : 0.65rem;
 }
 
-.minibox .strength .toggle__input{
-    display : none;
-}
-
 .minibox .strength .toggle__fill{
     background-color: var(--toggleBtnColor);
     height : 15px;
@@ -132,25 +128,4 @@ body{
     display: inline-block;
     position: relative;
     transition: background-color 0.2s;
-}
-
-.toggle__fill::after{
-    content: '';
-    position : absolute;
-    top : 0;
-    left : 0;
-    height : 15px;
-    width : 15px;
-    background-color: var(--toggleCircleColor);
-    transition: transform 0.2s;
-    border-radius: 100%;
-}
-
-.toggle__input:checked ~ .toggle__fill{
-    background-color: var(--btnColor);
-}
-
-.toggle__input:checked ~ .toggle__fill::after{
-    transform: translateX(15px);
-    background-color: white;
 }
