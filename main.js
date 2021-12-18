@@ -2,10 +2,10 @@ const slider = document.getElementById('slider');
 const passLength = document.getElementById('password-length');
 const generatePassword = document.getElementById('generatePassword');
 const displayResult = document.getElementById('displayOutput');
+const includeNumbers = document.getElementById('includeNumbers');
+const includeLetters = document.getElementById('includeLetters');
+const includeSymbols = document.getElementById('includeSymbols');
 let setNumbers = false, setLetters = false, setSymbols = false;
 let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 let numbers = '0123456789';
 let symbols = "~!@#$%^&*()_+><?/|\,.:;";
-
-
-
