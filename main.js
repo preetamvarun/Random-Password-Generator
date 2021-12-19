@@ -5,35 +5,39 @@ const displayResult = document.getElementById('displayOutput');
 const includeNumbers = document.getElementById('includeNumbers');
 const includeLetters = document.getElementById('includeLetters');
 const includeSymbols = document.getElementById('includeSymbols');
-let setNumbers = false, setLetters = false, setSymbols = false;
+let setNumbers = false, setLetters = false, setSymbols = false, length;
 let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 let numbers = '0123456789';
 let symbols = "~!@#$%^&*()_+><?/|\,.:;";
 
 
+slider.oninput = function(){
+    passLength.textContent = this.value;
+}
+
 function displayOutput(){
-    console.log(`numbers = ${setNumbers} letters = ${setLetters} symbols = ${setSymbols}`);
+    length = Number(passLength.textContent.trim());
     let Lstring = '', Nstring = '', Sstring = '', aggregateString = '', outputString = '';
     if(setLetters){
         // generate random letter string
-        for(let i = 0; i < 8; i++){
+        for(let i = 0; i < length; i++){
             Lstring += letters.charAt(Math.floor(Math.random() * letters.length));
         }
     }
     if(setNumbers){
         // generate random numbers tring
-        for(let i = 0; i < 8; i++){
+        for(let i = 0; i < length; i++){
             Nstring += numbers.charAt(Math.floor(Math.random() * numbers.length));
         }
     }
     if(setSymbols){
         // generate random symbols tring
-        for(let i = 0; i < 8; i++){
+        for(let i = 0; i < length; i++){
             Sstring += symbols.charAt(Math.floor(Math.random() * symbols.length));
         }
     }
     aggregateString = Lstring + Nstring + Sstring;
-    for(let i = 0; i < 8; i++){
+    for(let i = 0; i < length; i++){
         outputString += aggregateString.charAt(Math.floor(Math.random() * aggregateString.length));
     }
     displayResult.textContent = outputString;
@@ -58,6 +62,7 @@ includeSymbols.addEventListener('click',function(e){
     includeSymbols.style.justifyContent = 'flex-end';
     setSymbols = !setSymbols;
 });
+
 
 
 generatePassword.addEventListener('click',displayOutput);
