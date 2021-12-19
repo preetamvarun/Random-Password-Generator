@@ -44,13 +44,13 @@ function displayOutput(){
 
 function setStyles(status,Content){
     if(status){
-        Content.style.justifyContent = 'flex-start';
         Content.style.backgroundColor = '#14244C';
         Content.firstElementChild.style.backgroundColor = '#B7BDC7';
+        Content.firstElementChild.style.transform = 'translateX(-0.7px)';
     } else{
-        Content.style.justifyContent = 'flex-end';
         Content.style.backgroundColor = '#206FF4';
         Content.firstElementChild.style.backgroundColor = '#fff';
+        Content.firstElementChild.style.transform = 'translateX(15px)';
     }
 
 }

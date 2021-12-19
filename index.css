@@ -129,13 +129,10 @@ body{
 }
 
 .minibox .strength .toggle__fill{
-    background-color: var(--toggleBtnColor);
-    position: relative;
     height : 15px;
     width : 30px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    background-color: var(--toggleBtnColor);
+    transition: background-color 0.3s;
     border-radius : 40px;
 }
 
@@ -144,4 +141,9 @@ body{
     width : 15px;
     background-color : var(--toggleCircleColor);
     border-radius: 100%;
+    transition: transform 0.3s;
 }
+
+/* .minibox .strength .toggle__fill .icon:hover{
+    transform: translateX(15px);
+} */
