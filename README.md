@@ -42,7 +42,7 @@ open index.html with a browser you prefer
 [![CSS](https://img.shields.io/badge/CSS-currentVersion3-violet)](https://devdocs.io/css/) 
 
 ## 6. live-demo 👾
-https://p-game.netlify.app/
+https://ran-pass-gen.netlify.app/
 
 ## 7. Features
 User friendly 🔥 <br>
