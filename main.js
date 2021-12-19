@@ -46,7 +46,7 @@ function setStyles(status,Content){
     if(status){
         Content.style.backgroundColor = '#14244C';
         Content.firstElementChild.style.backgroundColor = '#B7BDC7';
-        Content.firstElementChild.style.transform = 'translateX(-0.7px)';
+        Content.firstElementChild.style.transform = 'translateX(0px)';
     } else{
         Content.style.backgroundColor = '#206FF4';
         Content.firstElementChild.style.backgroundColor = '#fff';

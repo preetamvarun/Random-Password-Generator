@@ -144,6 +144,26 @@ body{
     transition: transform 0.3s;
 }
 
-/* .minibox .strength .toggle__fill .icon:hover{
-    transform: translateX(15px);
-} */
+/*write media queries for landscape mobile phones*/
+
+@media (max-height : 450px) and (orientation : landscape){
+    .mainContainer{
+        height: 98vh;
+    }
+    .mainContainer .displayArea{
+        font-size: 0.65rem;
+    }
+    .mainContainer .displayArea .box{
+        height : 2rem;
+    }
+    .mainContainer .displayArea .minibox{
+        height : 1.5rem;
+    }
+}
+
+@media (max-width : 1024px){
+    .mainContainer{
+        width : 65%;
+        height : 90vh;
+    }
+}
