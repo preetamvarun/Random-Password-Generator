@@ -129,10 +129,11 @@ body{
     align-items: center;
     justify-content: flex-start;
     border-radius : 40px;
-    transition: background-color 0.2s;
 }
 
-.minibox .strength .toggle__fill i{
-    color : var(--toggleCircleColor);
-    font-size : 0.9rem;
+.minibox .strength .toggle__fill .icon{
+    height : 15px;
+    width : 15px;
+    background-color : var(--primaryColor);
+    border-radius: 100%;
 }
