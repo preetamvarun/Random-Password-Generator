@@ -8,8 +8,7 @@ const includeSymbols = document.getElementById('includeSymbols');
 let setNumbers = false, setLetters = false, setSymbols = false, length;
 let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 let numbers = '0123456789';
-let symbols = "~!@#$%^&*()_+><?/|\,.:;";
-
+let symbols = "~!@#$%^&*()-_=+{[}]\|:;'<,>.?/";
 
 slider.oninput = function(){
     passLength.textContent = this.value;
@@ -43,26 +42,35 @@ function displayOutput(){
     displayResult.textContent = outputString;
 }
 
+function setStyles(status,Content){
+    if(status){
+        Content.style.justifyContent = 'flex-start';
+        Content.style.backgroundColor = '#14244C';
+        Content.firstElementChild.style.backgroundColor = '#B7BDC7';
+    } else{
+        Content.style.justifyContent = 'flex-end';
+        Content.style.backgroundColor = '#206FF4';
+        Content.firstElementChild.style.backgroundColor = '#fff';
+    }
+
+}
+
 includeLetters.addEventListener('click',function(e){
-    setLetters ? includeLetters.style.justifyContent = 'flex-start' : 
-    includeLetters.style.justifyContent = 'flex-end';
+    setStyles(setLetters,includeLetters);
     setLetters = !setLetters;
     e.preventDefault();
 });
 
 includeNumbers.addEventListener('click',function(e){
-    setNumbers ? includeNumbers.style.justifyContent = 'flex-start':
-    includeNumbers.style.justifyContent = 'flex-end';
+    setStyles(setNumbers,includeNumbers);
     setNumbers = !setNumbers;
     e.preventDefault();
 });
 
 includeSymbols.addEventListener('click',function(e){
-    setSymbols ? includeSymbols.style.justifyContent = 'flex-start':
-    includeSymbols.style.justifyContent = 'flex-end';
+    setStyles(setSymbols,includeSymbols);
     setSymbols = !setSymbols;
+    e.preventDefault();
 });
-
-
 
 generatePassword.addEventListener('click',displayOutput);
