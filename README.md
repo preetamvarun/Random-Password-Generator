@@ -1,4 +1,4 @@
-**Pig-Game** : :jack_o_lantern:
+**Random-Password-Generator** : :jack_o_lantern:
 A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**  
 
 ## Table of contents
