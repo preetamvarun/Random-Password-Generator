@@ -6,7 +6,7 @@ A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**
 2. [Screenshots](#screenshots-)
 3. [Preview](#preview-)
 4. [Installation](#Installation-)
-5. [Technologies](#Technologies-)
+5. [Technologies](#Technologies-used-)
 6. [live-demo](#live-demo)
 7. [Features](#features)
 8. [Upcoming Features](#Upcoming-features)
@@ -36,7 +36,7 @@ $ cd Pig-Game/
 ```sh
 open index.html with a browser you prefer
 ```
-## Technologies ✳️
+## Technologies used ✳️
 
 [![Javascript](https://img.shields.io/badge/vanillaJs-orange)](https://devdocs.io/javascript/)   
 [![HTML](https://img.shields.io/badge/HTML5-green)](https://devdocs.io/html/)   
