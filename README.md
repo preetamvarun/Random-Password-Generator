@@ -2,7 +2,7 @@
 A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**  
 
 ## Table of contents
-- [General Info](#General-Info-)
+1. [General Info](#general-info-)
 - [Screenshots](#screenshots-)
 - [Preview](#preview-)
 - [Installation](#Installation-)
