@@ -7,7 +7,7 @@ A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**
 3. [Preview](#preview-)
 4. [Installation](#Installation-)
 5. [Live Demo](#live-demo-)
-6. [Features](#features-)
+6. [Current Features](#Current-features-)
 7. [Upcoming Features](#Upcoming-features-)
 
 ## General Info 📝
