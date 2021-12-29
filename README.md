@@ -20,27 +20,23 @@ The purpose of this project is to understand and implement the javascript concep
 
 
 ## Preview 🎥
-
 <img src = 'images/preview.gif' alt = 'preview' height = 350 width = 700>
 
+## Technologies ✳️
+[![Javascript](https://img.shields.io/badge/vanillaJs-orange)](https://devdocs.io/javascript/)   
+[![HTML](https://img.shields.io/badge/HTML5-green)](https://devdocs.io/html/)   
+[![CSS](https://img.shields.io/badge/CSS3-violet)](https://devdocs.io/css/) 
+
 ## Installation 📀
-
 #### Clone the repo
-
 ```sh
 $ git clone https://github.com/preetamvarun/Pig-Game.git
 $ cd Pig-Game/
 ```
-
 #### Run the app
 ```sh
 open index.html with a browser you prefer
 ```
-## Technologies ✳️
-
-[![Javascript](https://img.shields.io/badge/vanillaJs-orange)](https://devdocs.io/javascript/)   
-[![HTML](https://img.shields.io/badge/HTML5-green)](https://devdocs.io/html/)   
-[![CSS](https://img.shields.io/badge/CSS3-violet)](https://devdocs.io/css/) 
 
 ## live demo 👾
 https://ran-pass-gen.netlify.app/
