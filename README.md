@@ -14,12 +14,12 @@ A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**
 The purpose of this project is to understand and implement the javascript concepts that i've learned to make the user interface look appealing besides having fun along the journey :smiley:.
 
 ## Screenshots 📸
-<img src = "images/a.png" alt = "taskListImage" height = 300 width = 700>
-<img src = "images/b.png" alt = "taskListImage" height = 300 width = 700>
+<img src = "images/a.png" alt = "taskListImage" height = 300 width = 600>
+<img src = "images/b.png" alt = "taskListImage" height = 300 width = 600>
 
 
 ## Preview 🎥
-<img src = 'images/preview.gif' alt = 'preview' height = 350 width = 700>
+<img src = 'images/preview.gif' alt = 'preview' height = 350 width = 600>
 
 ## Installation 📀
 #### Clone the repo
