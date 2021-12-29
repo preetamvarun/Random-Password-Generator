@@ -35,7 +35,7 @@ open index.html with a browser you prefer
 ## live demo 👾
 https://ran-pass-gen.netlify.app/
 
-## features 🕯️
+## Current Features 🕯️
 User friendly 🔥 <br>
 clean UI ⭐ <br>
 Responsive 😉
