@@ -36,7 +36,7 @@ open index.html with a browser you prefer
 https://ran-pass-gen.netlify.app/
 
 <a name = "currentFeatures"> </a>
-## Current Features 🔽
+## Current Features ⏯️
 User friendly 🔥 <br>
 clean UI ⭐ <br>
 Responsive 😉
