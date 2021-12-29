@@ -6,10 +6,9 @@ A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**
 2. [Screenshots](#screenshots-)
 3. [Preview](#preview-)
 4. [Installation](#Installation-)
-5. [Technologies](#technologies-)
-6. [Live Demo](#live-demo-)
-7. [Features](#features-)
-8. [Upcoming Features](#Upcoming-features-)
+5. [Live Demo](#live-demo-)
+6. [Features](#features-)
+7. [Upcoming Features](#Upcoming-features-)
 
 ## General Info 📝
 The purpose of this project is to understand and implement the javascript concepts that i've learned to make the user interface look appealing besides having fun along the journey :smiley:.
@@ -21,11 +20,6 @@ The purpose of this project is to understand and implement the javascript concep
 
 ## Preview 🎥
 <img src = 'images/preview.gif' alt = 'preview' height = 350 width = 700>
-
-## Technologies ✳️
-[![Javascript](https://img.shields.io/badge/vanillaJs-orange)](https://devdocs.io/javascript/)   
-[![HTML](https://img.shields.io/badge/HTML5-green)](https://devdocs.io/html/)   
-[![CSS](https://img.shields.io/badge/CSS3-violet)](https://devdocs.io/css/) 
 
 ## Installation 📀
 #### Clone the repo
