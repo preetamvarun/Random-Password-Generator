@@ -7,7 +7,7 @@ A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**
 3. [Preview](#preview-)
 4. [Installation](#Installation-)
 5. [Live Demo](#live-demo-)
-6. [Current Features](#Current-features-)
+6. [Current Features](#currentFeatures)
 7. [Upcoming Features](#Upcoming-features-)
 
 ## General Info 📝
@@ -35,6 +35,7 @@ open index.html with a browser you prefer
 ## live demo 👾
 https://ran-pass-gen.netlify.app/
 
+<a name = "currentFeatures"> </a>
 ## Current Features 🕯️
 User friendly 🔥 <br>
 clean UI ⭐ <br>
