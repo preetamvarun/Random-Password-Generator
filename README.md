@@ -27,8 +27,8 @@ The purpose of this project is to understand and implement the javascript concep
 ## Installation 📀
 #### Clone the repo
 ```sh
-$ git clone https://github.com/preetamvarun/Pig-Game.git
-$ cd Pig-Game/
+$ git clone https://github.com/preetamvarun/Random-Password-Generator.git
+$ cd Random-Password-Generator/
 ```
 #### Run the app
 ```sh
