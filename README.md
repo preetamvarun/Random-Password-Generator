@@ -9,7 +9,7 @@ A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**
 5. [Live Demo](#liveDemo)
 6. [Current Features](#currentFeatures)
 7. [Upcoming Features](#upcomingFeatures)
-
+8. [Contact Me](#contactMe)
 <a name = "generalInfo"> </a>
 ## General Info 📝
 The purpose of this project is to understand and implement the javascript concepts that i've learned to make the user interface look appealing besides having fun along the journey :smiley:.
