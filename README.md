@@ -48,3 +48,9 @@ Responsive 😉
 ## Upcoming Features 🌠
 Copy to clipboard functionality
 
+<a name = "contactMe"> </a>
+## 8. Contact Me 📞
+- Gmail: [preetamvarun](mailto:preetamvarun99@gmail.com) 📧
+- Github: [preetamvarun](https://github.com/preetamvarun) 
+
+
