@@ -10,6 +10,7 @@ A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**
 6. [Current Features](#currentFeatures)
 7. [Upcoming Features](#upcomingFeatures)
 8. [Contact Me](#contactMe)
+9. [Technologies Used](#tech)
 <a name = "generalInfo"> </a>
 ## General Info 📝
 The purpose of this project is to understand and implement the javascript concepts that i've learned to make the user interface look appealing besides having fun along the journey :smiley:.
@@ -53,4 +54,9 @@ Copy to clipboard functionality
 - Gmail: [preetamvarun](mailto:preetamvarun99@gmail.com) 📧
 - Github: [preetamvarun](https://github.com/preetamvarun) 
 
+<a name = "tech"> </a>
+## 9. Technologies used
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Javascript](https://img.shields.io/badge/javascript-%231572B6.svg?style=for-the-badge&logo=javascript&logoColor=white)
 
