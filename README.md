@@ -48,6 +48,7 @@ Responsive 😉
 <a name = "upcomingFeatures"> </a>
 ## Upcoming Features 🌠
 Copy to clipboard functionality
+displaying password strength
 
 <a name = "contactMe"> </a>
 ## 8. Contact Me 📞
